@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* background: rgba(255, 144, 14, 0.1); */
+}
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  padding-bottom: 100px;
+}
+.logo-name {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+/* -----------------------
+------------brand style-------- */
+
+.brand {
+  text-align: center;
+  background: rgba(255, 144, 14, 0.1);
+}
+.brand-tittle {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  margin-bottom: 50px;
+}
+.brand-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 32px;
+}
+.primary-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.brand-img {
+  width: 80%;
+  margin-bottom: 35px;
+}
+
+/* ----------------------
+-----------future style------*/
+
+.future {
+  background: #fff;
+  padding-top: 90px;
+  margin-bottom: 130px;
+}
+.future-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+}
+.future-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.future-image img {
+  width: 200px;
+  height: 200px;
+}
+.info-tittle {
+  font-weight: 500;
+  font-size: 45px;
+  color: black;
+  margin-bottom: 24px;
+}
+.tittle-1st {
+  color: #727272;
+}
+.tittle-2nd {
+  color: #ff900e;
+}
+.info-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* -------------------------------------
+---------love and enjoy style---------- */
+
+.love-enjoy {
+  margin: 0 100px;
+  background: #fff;
+  margin-bottom: 170px;
+}
+.love-container {
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+}
+.love-details-tittle {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.love-details-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.love-item {
+  background: rgba(246, 242, 242, 0.864);
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.love-item-tittle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.love-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.love-image {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 830px;
+  position: relative;
+}
+.love-image img {
+  width: 550px;
+  height: auto;
+}
+.extra-btn {
+  width: 150px;
+  height: 194.52px;
+  position: relative;
+  top: -35px;
+  z-index: 1px;
+  background: #ff900e;
+  border: none;
+  border-radius: 5px;
+}
+
+/* -----------------------------
+-------------fact style--------- */
+
+.facts{
+    margin: 0 100px;
+}
+.fact-tittle{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 24px;
+}
+.fact-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 100px;
+}
+.fact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+}
+.fact-item{
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+/* ---------------------------------
+--------------sponsor style---------- */
+
+.sponsors{
+    margin: 0 100px;
+    text-align: center;
+}
+.sponsor-tittle{
+        font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 24px;
+}
+.sponsor-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 50px;
+}
+.sponsor-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    margin-bottom: 130px;
+}
+.sponsor-item img{
+    width: 153.33px;
+height: 50px;
+}
+
+/* ---------------------------------------
+---------------footer style--------------- */
+
+.footer{
+    margin: 0 200px;
+    background: rgba(255, 144, 14, 0.1);
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 100px;
+}
