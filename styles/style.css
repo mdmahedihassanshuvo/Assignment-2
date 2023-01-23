@@ -267,13 +267,13 @@ body {
   .fact-container,
   .sponsor-container {
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
   }
   .future {
     margin-bottom: 20px;
   }
-  .future-container {
+  .future-container  {
     flex-direction: column-reverse;
     padding: 20px;
   }
@@ -281,11 +281,14 @@ body {
     padding: 0 10px;
     margin-bottom: 20px;
   }
+  .brand img{
+    width: 200px;;
+  }
   .brand-tittle,
   .love-details-tittle,
   .fact-tittle,
   .intro-tittle {
-    font-size: 40px;
+    font-size: 30px;
   }
   .future-images {
     grid-template-columns: repeat(1, 1fr);
@@ -295,8 +298,22 @@ body {
     padding: 0;
     text-align: center;
   }
-  .love-image {
-    display: none;
+  .love-image img {
+  width: 250px;
+  height: auto;
+}
+.extra-btn{
+  width: 120px;
+  height: 94.52px;
+}
+.love-image{
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+}
+  .love-container{
+    flex-direction: column-reverse;
+    gap: 0px;
   }
   .all-items {
     text-align: left;
@@ -334,4 +351,5 @@ body {
   .footer {
     margin-bottom: 30px;
   }
+  
 }
